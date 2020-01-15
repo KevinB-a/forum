@@ -1,18 +1,19 @@
 from model.messagemodel import MessageModel
 
 class MessageView ():
-    """ """
+    """class to  """
     def __init__(self):
         self.model = MessageModel()
         
     
     def new_message(self):
+        """write a new message with user entries """
         content = input("Entrez le contenu de votre message :")
         author = input("Entrez votre nom :")
         self.model.write_message(content,author)
     
     def show_message(self):
-        """ """
+        """display every messages """
         # get the messages from the model
         messages = self.model.display_message()
         print('Bonjour et bienvenue sur le forum, voici les derniers messages : ')
