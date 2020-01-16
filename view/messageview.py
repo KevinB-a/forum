@@ -1,7 +1,7 @@
 from model.messagemodel import MessageModel
 
 class MessageView ():
-    """class to  """
+    """class to create and display messages"""
     def __init__(self):
         self.model = MessageModel()
         

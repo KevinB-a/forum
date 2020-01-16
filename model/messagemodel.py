@@ -1,7 +1,7 @@
 from model.connection import Connection
 
 class MessageModel():
-    """ """
+    """class to create model message and connect to database """
     
     def __init__(self):
         self.db = Connection()
