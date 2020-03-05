@@ -43,3 +43,4 @@ fonctionnement
 - Mettre en forme l’affichage des messages
 - Mettre en forme les inputs pour récupérer les informations nécessaires à la rédaction d’un nouveau
 message
+-------------------------------------------------------------------------------------------------------
